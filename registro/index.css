@@ -124,9 +124,99 @@ body {
             background-image: url(../imagenes/fondo.jpg);
         }
 
-            form {
+            .container-registro {
                 width: 80%;
-                height: 80%;
-                border: 3px solid white;
+                height: 95%;
                 color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
+
+                form {
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: #200014;
+                    margin: 0;
+                    border-top-left-radius: 2rem;
+                    border-bottom-left-radius: 2rem;
+                    box-shadow: 11px 7px 10px 3px rgba(0,0,0,0.75);
+                    -webkit-box-shadow: 11px 7px 10px 3px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 11px 7px 10px 3px rgba(0,0,0,0.75);
+                }
+
+                    .container-input {
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                        margin: 0.3rem;
+                        width: 60%;
+                    }
+                        .container-h2 {
+                            text-align: center;
+                        }
+
+                            .titulo-registro {
+                                font-size: 1.2rem;
+                            }
+
+                            label {
+                                font-size: 0.9rem;
+                            }
+
+                            input {
+                                text-align: center;
+                                border-radius: 2rem;
+                                border: none;
+                            }
+
+                            #cbox1 {
+                                margin-right: 0.3rem;
+                            }
+
+                            .label-term {
+                                font-size: 0.8rem;
+                            }
+
+                    .container-input-sexo {
+                        width: 60%;
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                        .sexo {
+                            margin: 0rem 0.3rem 0rem 0.3rem;
+                        }
+
+                    .container-btn {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 0.5rem;
+                    }
+
+                        .btn-confirmar {
+                        width: 40%;
+                        border-radius: 2rem; 
+                        }
+
+                .container-img {
+                    width: 50%;
+                    height: 100%;
+                }
+
+                    .img-registro {
+                        width: 100%;
+                        height: 100%;
+                        border-top-right-radius: 2rem;
+                        border-bottom-right-radius: 2rem;
+                        box-shadow: 11px 7px 10px 3px rgba(0,0,0,0.75);
+                        -webkit-box-shadow: 11px 7px 10px 3px rgba(0,0,0,0.75);
+                        -moz-box-shadow: 11px 7px 10px 3px rgba(0,0,0,0.75);
+                    }
+

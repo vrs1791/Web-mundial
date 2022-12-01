@@ -15,7 +15,7 @@
         <div class="contenedor-menu">
         <nav class="menu">
             <div class="contenedor-logo">
-                <img class="logo" src="../imagenes/logo.png" alt="Logo de la web">
+                <a href="../index.html"><img class="logo" src="../imagenes/logo.png" alt="Logo de la web"></a>
             </div>
             <ul class="ul-menu">
                 <li><a class="a-menu" href="../index.html">Inicio</a></li>
@@ -49,44 +49,54 @@
         </nav>
         </div>
         <div class="portada">
-            <form>
-                <div class="container-input">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" placeholder="Ingrese su nombre">
+            <div class="container-registro">
+                <form>
+                    <div class="container-h2">
+                        <h2 class="titulo-registro">¡Registrate para recibir más info del mundial!</h2>
+                    </div>
+                    <div class="container-input">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre">
+                    </div>
+                    <div class="container-input">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido">
+                    </div>
+                    <div class="container-input-sexo">
+                        <label class="sexo">Sexo:</label>
+                        <input class="sexo" name="sexo" type="radio" id="hombre">
+                        <label class="sexo" for="hombre">Hombre</label>
+                        <input class="sexo" name="sexo" type="radio" id="mujer">
+                        <label class="sexo" for="mujer">Mujer</label>
+                    </div>
+                    <div class="container-input">
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="text" id="correo">
+                    </div>
+                    <div class="container-input">
+                        <label for="usuario">Nuevo usuario:</label>
+                        <input type="text" id="usuario">
+                    </div>
+                    <div class="container-input">
+                        <label for="password">Nueva contraseña:</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div class="container-input">
+                        <label for="password">Repita contraseña:</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div class="container-input">
+                        <label class="label-term"><input id="cbox1" type="checkbox" value="first_checkbox">Declaro haber leído y aceptado los términos y condiciones
+                            generales.</label>
+                    </div>
+                    <div class="container-btn">
+                        <button class="btn-confirmar">Confirmar registro</button>
+                    </div>
+                </form>
+                <div class="container-img">
+                    <img class="img-registro" src="imagenes/copa.png" alt="Imagen de copa del mundo">  
                 </div>
-                <div class="container-input">
-                    <label for="apellido">Apellido</label>
-                    <input type="text" id="apellido" placeholder="Ingrese su apellido">
-                </div>
-                <div class="container-input">
-                    <label>Sexo:</label>
-                    <input name="sexo" type="radio" id="hombre">
-                    <label for="hombre">Hombre</label>
-                    <input name="sexo" type="radio" id="mujer">
-                    <label for="mujer">Mujer</label>
-                </div>
-                <div class="container-input">
-                    <label for="correo">Correo electrónico</label>
-                    <input type="text" id="correo" placeholder="Ingrese su correo electrónico">
-                </div>
-                <div class="container-input">
-                    <label for="pais">País</label>
-                    <input type="text" id="pais" placeholder="Ingrese su país">
-                </div>
-                <div class="container-input">
-                    <label for="usuario">Nuevo usuario</label>
-                    <input type="text" id="usuario" placeholder="Ingrese su nuevo usuario">
-                </div>
-                <div class="container-input">
-                    <label for="password">Nueva contraseña</label>
-                    <input type="password" id="password" placeholder="Ingrese su nueva contraseña">
-                </div>
-                <div class="container-input">
-                    <label for="password">Confirme contraseña</label>
-                    <input type="password" id="password" placeholder="Repita su nueva contraseña">
-                </div>
-
-            </form>
+            </div>
         </div>
     </header>
 
