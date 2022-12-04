@@ -22,7 +22,7 @@ body {
 
         .contenedor-menu {
             width: 100%;
-            height: 20%;
+            height: 15%;
         }
 
             .menu {
@@ -31,8 +31,6 @@ body {
                 display: flex;
                 align-items: center;
                 background-color: #200014;
-                border: 0.5rem solid white;
-                border-radius: 2rem;
             }
 
                 .contenedor-logo {
@@ -119,7 +117,7 @@ body {
 
         .portada {
             width: 100%;
-            height: 80%;
+            height: 85%;
         }
 
     main {
@@ -130,8 +128,187 @@ body {
         section {
             width: 100%;
             height: 100vh;
-            border: 2px solid blue;
+            display: flex;
+            flex-direction: column;
+            background-image: url(../../imagenes/fondo2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+
         }
+
+            .contenedor-1 {
+                width: auto;
+                height: 20%;
+                display: flex;
+                background-color: #200014;
+            }
+
+                .contenedor-escudo {
+                    width: 20%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                    .img-logo {
+                        width: 50%;
+                        height: 70%;
+                    }
+
+                .contenedor-bandera {
+                    width: 40%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                    .img-bandera {
+                        width: 40%;
+                        height: 70%;
+                        border-radius: 2rem;
+                    }
+
+                .contenedor-nombre {
+                    width: 40%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                    .titulo {
+                        font-size: 4rem;
+                        font-weight: 800;
+                        text-align: center;
+                        color: white;
+                        text-shadow: 10px 10px 5px black;
+                        letter-spacing: 0.3rem;
+                    }
+                
+            .contenedor-2 {
+                width: 100%;
+                height: 80%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+                .contenedor-info {
+                    width: 90%;
+                    height: 90%;
+                    background-color: #200014;
+                    color: white;
+                    display: flex;
+                    border-radius: 2rem;
+                    box-shadow: 18px 19px 14px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 18px 19px 14px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 18px 19px 14px 0px rgba(0,0,0,0.75);
+                }
+
+                    .contenedor-equipo-grupo {
+                        width: 65%;
+                        height: 100%;
+                        text-align: center;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                        .contenedor-equipo {
+                            width: 100%;
+                            height: 65%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 0.5rem;
+                        }
+
+                            .ul-equipo {
+                                width: 100%;
+                                margin: 0;
+                            }
+
+                                .li-equipo {
+                                    font-size: 1.2rem;
+                                }
+
+                                    span {
+                                        text-decoration: underline;
+                                    }
+
+                        .contenedor-grupo {
+                            width: 100%;
+                            height: 35%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                            .contenedor-info-grupo {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border: 2px solid white;
+                                border-radius: 2rem;
+                                padding: 0.5rem;
+                            }
+
+                                .ul-grupo {
+                                    display: flex;
+                                    flex-direction: column;
+                                    margin: 0;
+                                }
+
+                                    h3 {
+                                        text-decoration: underline;
+                                        margin: 0;
+                                        padding: 0;
+                                    }
+
+                                    .li-integrante-grupo {
+                                        list-style: lower-latin;
+                                        font-size: 1.3rem;
+                                        margin-right: 1.3rem;
+                                    }
+
+                    .contenedor-foto-mundiales {
+                        width: 35%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                        .contenedor-foto {
+                            width: 100%;
+                            height: 50%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                            .img-equipo {
+                                width: 80%;
+                                height: 80%;
+                                border-radius: 2rem;
+                            }
+
+                        .contenedor-mundiales-jugados {
+                            width: 100%;
+                            height: 50%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 1.5rem;
+                            text-align: center;
+                        }
+
+                            .años {
+                                font-size: 1rem;
+                            }
 
         footer {
             width: 100%;
