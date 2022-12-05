@@ -152,7 +152,7 @@ body {
                 }
 
                     .img-logo {
-                        width: 50%;
+                        width: 40%;
                         height: 70%;
                     }
 
@@ -165,7 +165,7 @@ body {
                 }
 
                     .img-bandera {
-                        width: 60%;
+                        width: 70%;
                         height: 70%;
                         border-radius: 2rem;
                     }
@@ -326,8 +326,3 @@ body {
             height: 100vh;
             border: 2px solid blue;
         }
-            footer {
-                width: 100%;
-                height: 100vh;
-                border: 2px solid blue;
-            }
