@@ -115,10 +115,81 @@ body {
                     padding: 0;
                 }
 
-        .portada {
-            width: 100%;
-            height: 85%;
-        }
+            .portada {
+                width: 100%;
+                height: 85%;
+                background-image: url(../../imagenes/fondo.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: flex;
+            }
+    
+                .contenedor-1-portada {
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+    
+                    .contenedor-foto-conf {
+                        width: 80%;
+                        height: 80%;
+                        background-color: #200014;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 2rem;
+                        box-shadow: 19px 16px 12px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 19px 16px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 19px 16px 12px 0px rgba(0,0,0,0.75);
+                    }
+    
+                        .img-conf {
+                            width: 70%;
+                            height: 70%;
+                        }
+    
+                .contenedor-2-portada {
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+    
+                    .contenedor-info-conf {
+                        width: 80%;
+                        height: 80%;
+                        display: flex;
+                        flex-direction: column;
+                        background-color: #200014;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 2rem;
+                        color: white;
+                        box-shadow: 19px 16px 12px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 19px 16px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 19px 16px 12px 0px rgba(0,0,0,0.75);
+                    }
+    
+                                .li-selecciones {
+                                    margin: 1rem;
+                                    font-size: 1.5rem;
+                                }
+    
+                                    .icono-bandera {
+                                        width: 3rem;
+                                        height: 2rem;
+                                        margin-right: 1rem;
+                                        border-radius: 0.5rem;
+                                    }
+    
+                                        .a-selecciones {
+                                            text-decoration: none;
+                                            color: white;
+                                        }
 
     main {
         width: 100%;
