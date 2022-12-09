@@ -202,7 +202,8 @@ body {
 
                         .btn-confirmar {
                         width: 40%;
-                        border-radius: 2rem; 
+                        border-radius: 2rem;
+                        border: none;
                         }
 
                 .container-img {
@@ -220,3 +221,53 @@ body {
                         -moz-box-shadow: 11px 7px 10px 3px rgba(0,0,0,0.75);
                     }
 
+@media (max-width: 768px) {
+    .a-menu {
+        font-size: 0.7rem;
+        margin: 0.5rem;
+    }
+
+    .a-menu-log {
+        font-size: 0.6rem;
+    }
+
+    .ul-menu {
+        width: 55%;
+    }
+
+    .ul-menu-log {
+        width: 25%;
+    }
+
+    .ul-menu-log {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .a-ul-submenu {
+        font-size: 0.8rem;
+    }
+
+        .container-registro {
+            flex-direction: column;
+        }
+
+        form {
+            width: 100%;
+            height: 100%;
+            border-radius: 2rem;
+        }
+
+        .container-img {
+            display: none;
+        }
+
+        .titulo-registro {
+            font-size: 0.9rem;
+        }
+
+        .btn-confirmar {
+            width: 50%;
+            border: none;
+        }
+}

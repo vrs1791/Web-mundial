@@ -189,3 +189,35 @@ body {
                                 border-radius: 2rem;
                                 border: none;
                             }
+
+@media (max-width: 768px) {
+    .a-menu {
+        font-size: 0.7rem;
+        margin: 0.5rem;
+    }
+
+    .a-menu-log {
+        font-size: 0.6rem;
+    }
+
+    .ul-menu {
+        width: 55%;
+    }
+
+    .ul-menu-log {
+        width: 25%;
+    }
+
+    .ul-menu-log {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .a-ul-submenu {
+        font-size: 0.8rem;
+    }
+
+        .contenedor-login {
+            width: 70%;
+        }
+}
