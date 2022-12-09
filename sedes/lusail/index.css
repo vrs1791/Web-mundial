@@ -250,12 +250,13 @@ body {
 
 @media (max-width: 768px) {
     .a-menu {
-        font-size: 0.7rem;
-        margin: 0.5rem;
+        font-size: 0.9rem;
+        margin: 0.3rem;
     }
 
     .a-menu-log {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
+        margin: 0;
     }
 
     .ul-menu {
