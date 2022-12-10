@@ -435,3 +435,160 @@ body {
                     color: white;
                     font-size: 1.5rem;
                 }
+
+@media (max-width: 768px) {
+    .a-menu {
+        font-size: 0.9rem;
+        margin: 0.3rem;
+    }
+
+    .a-menu-log {
+        font-size: 0.7rem;
+        margin: 0;
+    }
+
+    .ul-menu {
+        width: 55%;
+    }
+
+    .ul-menu-log {
+        width: 25%;
+    }
+
+    .ul-menu-log {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .a-ul-submenu {
+        font-size: 0.8rem;
+    }
+
+        .portada {
+            flex-direction: column;
+        }
+
+        .contenedor-1-portada {
+            width: 100%;
+            height: 40%;
+        }
+
+        .contenedor-foto-conf {
+            height: 95%;
+        }
+
+        .contenedor-2-portada {
+            width: 100%;
+            height: 60%;
+        }
+
+        .contenedor-info-conf {
+            height: 95%;
+        }
+
+        .titulo-selecciones {
+            margin-bottom: 0;
+        }
+
+        .ul-selecciones {
+            margin-bottom: 0;
+        }
+
+        .li-selecciones {
+            font-size: 1.2rem;
+        }
+
+        .icono-bandera {
+            height: 1.6rem;
+        }
+
+            .contenedor-escudo {
+                display: none;
+            }
+
+            .contenedor-bandera {
+                width: 40%;
+            }
+
+            .img-bandera {
+                width: 70%;
+                height: 40%;
+                border-radius: 1rem;
+            }
+
+            .contenedor-nombre {
+                width: 60%;
+            }
+
+            i.fa-solid.fa-star {
+                display: none;
+            }
+
+            .titulo {
+                letter-spacing: 0;
+                font-size: 3rem;
+                margin-bottom: 0;
+            }
+
+            .contenedor-info {
+                width: 95%;
+                height: 95%;
+                flex-direction: column;
+            }
+
+            .li-integrante-grupo {
+                font-size: 1rem;
+            }
+
+            .contenedor-equipo-grupo {
+                width: 100%;
+                height: 25%;
+            }
+
+            .contenedor-grupo {
+                height: 100%;
+            }
+
+            .contenedor-info-grupo {
+                padding: 0.2rem;
+            }
+
+            .contenedor-foto-mundiales {
+                width: 100%;
+                height: 75%;
+            }
+
+            .contenedor-equipo {
+                display: none;
+            }
+
+            .contenedor-foto {
+                height: 40%;
+            }
+
+            .img-equipo {
+                width: 95%;
+                height: 90%;
+                border-radius: 1rem;
+            }
+
+            .contenedor-mundiales-jugados {
+                height: 60%;
+            }
+
+            h3 {
+                margin-bottom: 0rem;
+            }
+
+    .p-footer {
+        font-size: 1rem;
+    }
+
+    .i-redes {
+        font-size: 1rem;
+    }
+
+    .ir-arriba {
+        font-size: 1rem;
+    }
+}

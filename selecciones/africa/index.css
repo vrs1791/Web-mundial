@@ -516,6 +516,10 @@ body {
                 width: 60%;
             }
 
+            i.fa-solid.fa-star {
+                display: none;
+            }
+
             .titulo {
                 letter-spacing: 0;
                 font-size: 3rem;
@@ -534,16 +538,20 @@ body {
 
             .contenedor-equipo-grupo {
                 width: 100%;
-                height: 30%;
+                height: 25%;
             }
 
             .contenedor-grupo {
                 height: 100%;
             }
 
+            .contenedor-info-grupo {
+                padding: 0.2rem;
+            }
+
             .contenedor-foto-mundiales {
                 width: 100%;
-                height: 70%;
+                height: 75%;
             }
 
             .contenedor-equipo {
@@ -551,13 +559,22 @@ body {
             }
 
             .contenedor-foto {
-                height: 60%;
-            }
-
-            .contenedor-mundiales-jugados {
                 height: 40%;
             }
 
+            .img-equipo {
+                width: 95%;
+                height: 90%;
+                border-radius: 1rem;
+            }
+
+            .contenedor-mundiales-jugados {
+                height: 60%;
+            }
+
+            h3 {
+                margin-bottom: 0rem;
+            }
 
     .p-footer {
         font-size: 1rem;
