@@ -149,6 +149,7 @@ body {
                         width: 90%;
                         height: 90%;
                         border-radius: 2rem;
+                        min-height: fit-content;
                     }
 
             .contenedor-2-portada {
@@ -275,6 +276,10 @@ body {
         .contenedor-1-portada {
             width: 100%;
             height: 40%;
+        }
+
+        .img-copa-portada {
+            max-width: fit-content;
         }
 
         .contenedor-2-portada {
