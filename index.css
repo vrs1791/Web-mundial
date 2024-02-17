@@ -178,14 +178,14 @@ body {
 
                     .h2-titulo {
                         text-align: center;
-                        font-size: 3rem;
-                        font-weight: 700;
+                        font-size: 4rem;
+                        font-weight: 500;
                         margin-top: 1rem;
                     }
 
                     .p-portada {
                         text-align: center;
-                        font-size: 1rem;
+                        font-size: 2rem;
                     }
           
         footer {
@@ -288,12 +288,12 @@ body {
         }
 
         .h2-titulo {
-            font-size: 1.3rem;
+            font-size: 2rem;
             margin-top: 0.5rem;
         }
 
         .p-portada {
-            font-size: 0.8rem;
+            font-size: 1.4rem;
             margin-bottom: 0.2rem;
         }
 
